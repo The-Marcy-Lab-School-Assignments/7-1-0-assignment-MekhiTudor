@@ -1,6 +1,6 @@
-import PokemonForm from './components/PokemonForm'
-import Filter from './components/Filter'
-import PokemonCollection from './components/PokemonCollection'
+import PokemonForm from "./components/PokemonForm";
+import Filter from "./components/Filter";
+import PokemonCollection from "./components/PokemonCollection";
 
 const App = () => {
   return (
@@ -8,12 +8,13 @@ const App = () => {
       <h1>Pokedex</h1>
       <br />
       <PokemonForm />
+      {/* //state for each form fields */}
       <br />
       <Filter />
       <br />
       <PokemonCollection />
     </div>
   );
-}
+};
 
 export default App;
